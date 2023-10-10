@@ -5,56 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1 id="texto">Meu nome é:</h1>
+<body>  
+    <h1> Sons midi</h1>
 
-    <button onclick="mudarCor()">Mudar Cor</button>
-    <button onclick="aumentaFonte()">Aumentar fonte</button>
-    <button onclick="diminuiFonte()">Diminuir fonte</button>
-
-    <script>
-        function mudarCor(){
-            var elementoTexto = document.getElementById("texto");
-            elementoTexto.style.color = "blue";
-        }
-
-        var tamanhoFonte = 16;
-
-        function aumentaFonte(){
-            var elementoTexto = document.getElementById("texto");
-            tamanhoFonte += 2;
-            elementoTexto.style.fontSize = tamanhoFonte + "px";
-        }
-
-        function diminuiFonte(){
-            var elementoTexto = document.getElementById("texto");
-            tamanhoFonte -= 2;
-            elementoTexto.style.fontSize = tamanhoFonte + "px";
-        }
+    <section class="teclado">
+        <button class="tecla tecla_pom">Pom</button>
+        <button class="tecla tecla_clap">Clap</button>
+        <button class="tecla tecla_tim>">Tim</button>
         
-        //COMO CRIAR VARIAVEIS NO JS?
-        var nome = "Pierry";
-        var sobrenome = 'Martos';
-        var idade = 17;
-        var casado = false;
-
-        casado = '5';
-
-        //alert(nome);
-        //alert("Qualquer texto");
-        //alert("Nome completo:" + nome + " " + sobrenome);
-
-        var a = 5;
-        var b = 7;
-
-        var c = a + b;//somando
-        var d = c - a;//subtraindo
-        var e = d / b;//divisão
-
-        alert(c);
-        alert(d);
-        alert(e);
-
-    </script>
+        <button class="tecla tecla_puff">Puff</button>
+        <button class="teclat tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</buttom>
+        
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
+     </section>
+     
 </body>
 </html>
