@@ -1,12 +1,12 @@
-function playAudio(playAudio){
-    alert(AudioId);
+function playAudio(audioID){
     
-    const audio = document.getElementById(audioID)
-    
+
+    const audio = document.getElementById(audioID);
+
     if(audio){
         audio.play();
-    } else{
+    }else{
         alert(audioID);
     }
-    
+
 }
